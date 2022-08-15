@@ -40,5 +40,11 @@
             padding: 4px 8px;
             font-size: $font-size-base-2xs;
         }
+        .selection{
+            .btn{
+                padding: 8px 32px;
+                font-size: $font-size-base-xs;
+            }
+        }
     }
 }
