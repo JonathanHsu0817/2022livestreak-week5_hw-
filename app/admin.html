@@ -1,0 +1,219 @@
+---
+title: 使用者資料
+layout: ./app/layout.ejs
+engine: ejs
+current: Admin
+---
+
+<div class="sub-header">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid align-items-center">
+      <h1><a class="navbar-brand text-dark" href="admin.html">Admin</a></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-admin nav-link d-flex align-items-center text-success" href="#" role="button">
+              <span class="material-icons text-success">add</span>
+              Add New Admin
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul class="navbar-icon d-flex align-items-center">
+        <li>
+          <a href="#"><span class="material-icons text-dark">search</span></a>
+        </li>
+        <li class="last"><a href="#"><span class="material-icons text-dark">notifications_active</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Verified</th>
+        <th scope="col" width="24" class="px-4"></th>
+        <th scope="col" width="24" class="px-4"></th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr>
+        <td scope="row">#1</td>
+        <td>Emir Wicks</td>
+        <td>emir.wicks@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <a href="#" class="text-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><span class="material-icons">visibility</span></a>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#2</td>
+        <td>Zaina Goldsmith</td>
+        <td>zaina.goldsmith@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#3</td>
+        <td>Mahima Lopez</td>
+        <td>mahima.lopez@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#4</td>
+        <td>Pharrell Murray</td>
+        <td>pharrell.murray@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#5</td>
+        <td>Annika Mcbride</td>
+        <td>annika.mcbride@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#6</td>
+        <td>Fatimah Clark</td>
+        <td>fatimah.clark@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#7</td>
+        <td>Klaudia Rhodes</td>
+        <td>klaudia.rhodes@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#8</td>
+        <td>Tillie Lucero</td>
+        <td>tillie.lucero@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#9</td>
+        <td>Sabrina Stephenson</td>
+        <td>sabrina.stephenson@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+      <tr>
+        <td scope="row">#10</td>
+        <td>Annie Smith</td>
+        <td>annie.smith@mail.com</td>
+        <td>Yes</td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">visibility</span>
+        </td>
+        <td width="24" class="px-4">
+          <span role="button" class="material-icons">edit</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header justify-content-start align-items-start">
+          <div class="img-border">
+            <img src="./assets/images/emir.jpeg" alt="emilywang">
+          </div>
+          <div class="modal-info">
+            <div class="index d-flex mb-2">
+              <span>#1</span>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="person-info">
+              <p>Admin</p>
+              <h3 class="fw-bold">Emir Wicks</h3>
+              <small>emir.wicks@mail.com</small>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle btn btn-light" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Dropdown link
+              </a>
+            
+              <div class="collapse mt-4" id="collapseExample">
+                  <div class="selection d-flex justify-content-between">
+                    <a href="#" class="btn btn-outline-danger">Deactivate</a>
+                    <a href="#" class="btn btn-success">Edit</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  <ul class="pagination pagination-admin justify-content-end">
+    <li class="page-item">
+      <a class="page-link page-arrow text-success border-success" href="#" aria-label="Previous">
+        <span class="material-icons">chevron_left</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link text-success border-success" href="#">1</a></li>
+    <li class="page-item"><a class="page-link text-success border-success" href="#">2</a></li>
+    <li class="page-item"><a class="page-link text-success border-success" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link page-arrow text-success border-success" href="#" aria-label="Next">
+        <span class="material-icons">chevron_right</span>
+      </a>
+    </li>
+  </ul>
+</div>
