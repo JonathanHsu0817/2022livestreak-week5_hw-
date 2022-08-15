@@ -323,5 +323,8 @@ a {
   .modal-content .modal-info .btn {
     padding: 4px 8px;
     font-size: 14px; }
+  .modal-content .modal-info .selection .btn {
+    padding: 8px 32px;
+    font-size: 16px; }
 
 /*# sourceMappingURL=all.css.map */
